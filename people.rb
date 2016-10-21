@@ -27,7 +27,7 @@ end
 class Instructor < Person
 
 	attr_reader :name
-	
+
 	def initialize(name)
 		super
 	end
@@ -37,3 +37,6 @@ class Instructor < Person
 	end
 
 end
+
+chris = Instructor.new("Chris")
+chris.greeting
