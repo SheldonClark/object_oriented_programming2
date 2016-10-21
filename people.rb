@@ -40,6 +40,10 @@ end
 
 chris = Instructor.new("Chris")
 chris.greeting
+chris.teach
 
 cristina = Student.new("Cristina")
 cristina.greeting
+cristina.learn
+cristina.teach
+#cristina.teach doesn't work because the method teach is in the Instructor class
